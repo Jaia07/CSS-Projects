@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.upper_div {
+    text-align: center;
+    height: 65px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 15px;
+    background-color: #f2f2f2;
+}
+
+.list_style {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.rocketman {
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+    margin: auto;
+    padding-top: 6px;
+}
+
+.image {
+    width: 27px;
+    height: 26px;
+    margin: auto;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.lower_div {
+    height: 600px;
+    background-image: url("images/spacex-rocket-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.opacity_box {
+        color: white;
+        height: 596px;
+        background-size: cover;
+        background-position: center;
+        background-color: black;
+        opacity: 0.5;
+        text-align: center;
+    }
+
+.lower_div_element {
+    margin: auto;
+    padding-left: 300px;
+    padding-top: 250px;
+    padding-right: 703px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lower_1 {
+    margin-left: -147px;
+    padding: 27px;
+    padding-left: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.button_fix {
+    background-color: white; 
+    padding: 10px; 
+    float: left;
+}
+
+li {
+    list-style-type: none;
+}

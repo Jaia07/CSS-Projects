@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ 
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+    /* Nav bar menu */
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 30px 400px;
+    align-content: center;
+    color: black;
+}        
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 30px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+}
+nav ul li a:hover {
+    color: blue;
+    transition: all .4s;
+}
+
+/* Nav bar menu ends */
+
+/* Hero portion */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 210px 400px;
+    background-image: linear-gradient(180.43deg, 
+                                    rgba(0,0,0,0.6) 0%, 
+                                    rgba(0,0,0,0.8) 100%),
+                                    url(images-css201/spacex-rocket-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero-items {
+    margin: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #f5f5f5;
+}
+.item {
+    font-size: 70px;
+}
+.item1 {
+    font-size: 35px;
+}
+button, .item2 {
+    background-color: #f5f5f5;
+    color: black;
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+}
+button:hover {
+    background-color: rgba(108, 122, 137, 0.6);
+    transition: all, .4s;
+    color: #f5f5f5;
+}
+
+.below-hero-text, .below-card-text {
+    text-align: center;
+    padding: 120px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+/* Hero portion ends */
+
+/* toy rocket card portion starts */
+
+.toy-section {
+    display: flex;
+    justify-content: center;
+    padding: 0px 400px;
+    background-color: white;
+    align-items: center;
+}
+.card {
+    border: 1px solid grey;
+    height: auto;
+    width: 500px;
+    margin: 0px 15px 100px;
+    text-align: center;
+}
+.card-image {
+    height: 300px;
+    width: 490px;
+    margin-bottom: 40px;
+}
+.card-image1 {
+   background-image: url(images-css201/hello-i-m-nik-8yCmQODY2SY-unsplash.2e16d0ba.fill-570x370.jpg);
+   background-size: cover;  
+}
+.card-image2 {
+   background-image: url(images-css201/nasa-n463SoeSiVY-unsplash.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.card p {
+    font-size: 20px;
+}
+.text-item {
+    margin-bottom: 20px;
+}
+.card a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+/* toy rocket card portion ends */
+
+/* first card portion begins */
+
+.first-card, .third-card {
+    width: 1025px;
+    height: 480px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 175px;
+}
+.first-card-image, .third-card-image {
+    width: 670px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images-css201/spacex-MEW1f-yu2KI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.first-card-image1, .third-card-image1 {
+    width: 450px;
+    height: 280px;
+    position: absolute;
+    top: 58%;
+    left: 55%;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    padding: 50px 10px 30px 40px;
+    background-color: #36454F;
+    color: white;
+}
+.first-card-image-item1, .second-card-image-item1, .third-card-image-item1 {
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.first-card-image-item2, .second-card-image-item2, .third-card-image-item2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.first-card-image-item3, .second-card-image-item3, .third-card-image-item3 {
+    margin: 0;
+}
+
+/* First card portion ends */
+
+/* Second card portion begins */
+
+
+.second-card {
+    width: 1025px;
+    height: 480px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 175px;
+}
+.second-card-image {
+    width: 670px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    background-image: url(images-css201/pablo-guerrero-pGXUwHZQ5eI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.second-card-image1 {
+    width: 450px;
+    height: 280px;
+    position: absolute;
+    top: 58%;
+    left: 1%;
+    z-index: 1;
+    padding: 50px 10px 30px 40px;
+    background-color: #36454F;
+    color: white;
+}
+
+/* Third card portion begins */
+
+.third-card-image {
+    background-image: url(images-css201/spacex-rocket-image.jpg);
+}
+.third-card-image1 {
+    height: 365px;
+    padding-right: 15px;
+}
+
+/* Below card text */
+
+.below-card-text button {
+    background-color: rgba(159, 90, 253, 1);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.below-card-text button:hover {
+    background-color: rgb(179, 96, 179);
+    color: black;
+}
+
+/* Below card text ends */
+
+/* Second Below card text */
+
+.below-card-text2 {
+    text-align: center;
+    padding: 0 500px;
+    margin-bottom: 100px;
+}
+.below-card-text2-item1 {
+    font-size: 30px;
+    font-weight: 750;
+}
+.below-card-text2-item2 {
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+/* Second Below card text ends */
+
+/* Contact us div starts */
+
+.contact-us {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 30px 400px 70px;
+    background-color: rgba(159, 90, 253, 1);
+}
+.contact-us-text {
+    padding-right: 50px;
+    color: white;
+}
+.contact-us-text h1 {
+    margin-bottom: 15px;
+}
+.contact-us-text p {
+    font-weight: 600;
+    font-size: 15.5px;
+}
+.contact-us-button button {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 150px;
+}
+.contact-us-button button:hover {
+    background-color: rgba(189, 195, 199,1);
+    color: black;
+}
+
+/* Contact us div closes */
+
+/* Additional info div starts */
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 50px 400px 80px;
+    background-color: black;
+    color: white;
+}
+.additional-info ul li {
+    list-style-type: none;
+}
+.header {
+    font-size: 13px;
+    color: rgba(108, 122, 137, 1);
+    font-weight: 600;
+}
+.mini-items {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.additional-info ul li a {
+    text-decoration: none;
+    font-weight: 800;
+}
+
+

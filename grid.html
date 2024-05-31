@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+        }
+        #grid2 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin-top: 15px;
+        }
+
+        .second {
+            border: 1px solid blue;
+            
+        }
+
+        .item {
+            border: 1px solid red;
+            border-radius: 15px;
+        }
+        .item1, .item7 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .item4 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .item5, .item6 {
+            grid-column-start: 2;
+            grid-column-end: 4;        }
+    
+    </style>
+
+</head>
+<body>
+    
+    <div id="grid">
+        <div class="item item1">This is the header</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+        <div class="item item7">7</div>
+    </div>
+    <div id="grid2">
+        <div class="second">6</div>
+        <div class="second">6</div>
+        <div class="second">6</div>
+        <div class="second">6</div>
+        <div class="second">6</div>
+
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS 101</title>
+        <style>
+            div p#intro {
+                background-image: url("images/jonas-svidras-bgoE05DFF9U-unsplash.jpg");
+                background-size: contain;
+                
+                
+                text-decoration: underline;
+            }
+            body {
+               text-align: justify;
+                background-image: url("images/istockphoto.jpg");
+                background-size: cover;
+            }
+            .div{
+                display: inline;
+                border: 5px solid red;
+                font-size: large;
+                width: 200px;
+                height: 200px;
+                border-radius: 3px;
+                margin-right: 5px;
+                padding: 5px 5px 5px 5px;
+
+            }
+            h1.myClass {
+                
+                border: 15px solid black;
+                text-transform: capitalize;
+                height: 200px;
+                border-radius: 20%;
+                width: 200px;
+                border-style: solid;
+                border-color: blue;
+            }
+            div p#intro {
+                font-size: 50px;
+                text-align: center;
+            }
+            #box{
+                width: 200px;
+                height: 200px;
+                background-image: url("images/istockphoto.jpg");
+                background-position: center;
+                background-size: cover;
+                border: 2px solid black;
+                border-radius: 0% 50% 0% 50%;
+                box-shadow: 10px 10px 15px red;
+
+            }
+            #padding{
+                width: 200px;
+                height: 200px;
+                border: 1px dashed darkblue;
+                padding: ;
+            }
+        </style>
+
+
+</head>
+<body>
+    <h1 class="myClass">This is a header</h1>
+    <div class="myClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab inventore accusantium temporibus optio eos illum quasi nihil cumque libero, dolorum, odio consectetur minima illo quas laborum repellendus quae delectus?</div> 
+    <p>It is me</p> 
+    <div>
+        <p id="intro">This should be selected</p>
+    </div>
+    <p>DOnt select</p>
+
+    <div class="div">
+        This is a div element
+    </div>
+    <div class="div">
+        This is a div element
+    </div><br><hr>
+
+    <div id="box"></div><hr>
+    
+    <div id="padding">Example</div>
+</body>
+</html>

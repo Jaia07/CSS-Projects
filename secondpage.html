@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second page</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .box {
+            border: 10px solid black;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation-name: identifier;
+            animation-duration: 4s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes identifier {
+            0% {
+                top: 0;
+                left: 0;
+                bottom: 100%;
+                right: 100%;
+            }
+            25% {
+                top: 0;
+                left: 88.5%;
+                bottom: 100%;
+                right: 0;
+            }
+            50% {
+                top: 74%;
+                left: 88.5%;
+                bottom: 0;
+                right: 0;
+            }
+            75% {
+                top: 74%;
+                left: 0;
+                bottom: 0;
+                right: 100%;
+            }
+            100% {
+                top: 0;
+                left: 0;
+                bottom: 100%;
+                right: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+        
+        <div class="box">
+        
+        </div>
+        
+</body>
+</html>
